@@ -1,0 +1,11 @@
+def sol(l):
+   sum1=0
+   for i in range(2,t+1):
+       a=0
+       a="{:.6f}".format(1/i)
+       a=float(a)
+       sum1+=a
+   return(sum1+1)    
+t=int(input())
+l=list(map(int,input().split()))
+print(sol(l))
